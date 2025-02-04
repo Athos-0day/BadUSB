@@ -1,0 +1,20 @@
+REM Author : Athos-0day 
+REM Title : Matrix green screen 
+REM Target : MacOS
+
+ID 05ac:021e Apple:Keyboard
+DELAY 600
+GUI SPACE
+DELAY 200
+STRING terminal
+DELAY 700
+ENTER
+DELAY 700
+CTRL c
+DELAY 500
+GUI CTRL f
+DELAY 500
+STRING brew install cmatrix 
+DELAY 2000
+STRING cmatrix 
+DELAY 1000
